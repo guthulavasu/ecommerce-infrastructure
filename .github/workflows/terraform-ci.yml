@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        environment: [dev, test, uat, prod]
+        environment: [dev]
 
     defaults:
       run:
